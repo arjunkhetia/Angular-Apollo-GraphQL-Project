@@ -141,9 +141,5 @@ export class AppComponent implements OnInit, OnDestroy {
       this.singleUser = JSON.stringify(result?.data?.getUser);
     });
   }
-
-  subscribeToNewUser() {
-    // this.mutationSubscription.
-  }
   
 }
